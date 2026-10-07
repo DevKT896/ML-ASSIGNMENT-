@@ -1,0 +1,13 @@
+var1: train (1000, 6), features ['x1', 'x2', 'x3', 'x4', 'x5', 'x6']
+  degree  1 (    6 terms): best alpha=100 CV MSE=8.81802  CV R2=0.085103
+  degree  2 (   27 terms): best alpha=10 CV MSE=2.76126  CV R2=0.713511
+  degree  3 (   83 terms): best alpha=10 CV MSE=0.973193  CV R2=0.899028
+  degree  4 (  209 terms): best alpha=10 CV MSE=0.723608  CV R2=0.924923
+  degree  5 (  461 terms): best alpha=30 CV MSE=0.5027  CV R2=0.947843
+  degree  6 (  923 terms): best alpha=30 CV MSE=0.626366  CV R2=0.935013
+  degree  7 ( 1715 terms): best alpha=100 CV MSE=0.64253  CV R2=0.933335
+  degree  8 ( 3002 terms): best alpha=100 CV MSE=0.773814  CV R2=0.919714
+  degree  9 ( 5004 terms): best alpha=100 CV MSE=0.864162  CV R2=0.910340
+  degree 10 ( 8007 terms): best alpha=100 CV MSE=1.01529  CV R2=0.894660
+Selected degree=5, alpha=30, CV MSE=0.5027, CV R2=0.947843
+Saved outputs\explore\model_var1.pkl
